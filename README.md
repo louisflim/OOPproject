@@ -1,17 +1,17 @@
 # OOPproject
 
 ## Class and Object 
-I created a `OOP` class that acts as the main window of my project. Within the `OOP` objects include all aspects required like a text field, labels, a button, and a combo box. I declared all of the GUI elements and data as private fields to structure the program appropriately. I created the `OOP` object in the `main` method so that it would show the window. 
+I created a `tempConvertProject` class that acts as the main window of my project. Within the `tempConvertProject` objects include all aspects required like a text field, labels, a button, and a combo box. I declared all of the GUI elements and data as private fields to structure the program appropriately. I created the `tempConvertProject` object in the `main` method so that it would show the window. 
 
 ## Class Diagram 
-I created a class diagram that shows all of the fields and methods inside of the `OOP` class. The diagram clearly distinguishes the attributes (JPanel, JTextField, JButton, JComboBox, JLabel) and the methods (constructor, and main method). This is helpful in terms of clarifying the ordering of the class and its responsibilities.
+I created a class diagram that shows all of the fields and methods inside of the `tempConvertProject` class. The diagram clearly distinguishes the attributes (JPanel, JTextField, JButton, JComboBox, JLabel) and the methods (constructor, and main method). This is helpful in terms of clarifying the ordering of the class and its responsibilities.
 
 ## Four OOP Principles
 I applied the four OOP principles in the project:
 
 - **Abstraction**: I hid all the detailed actions (like temperature conversion) inside the class.
 - **Encapsulation**: I made all the components private so that they are protected and only accessible inside the class.
-- **Inheritance**: The `OOP` class extends `JFrame`, showing how a child class can inherit properties from a parent class.
+- **Inheritance**: The `tempConvertProject` class extends `JFrame`, showing how a child class can inherit properties from a parent class.
 - **Polymorphism**: I used an anonymous class to handle the button’s `ActionListener`, which is an example of polymorphism in Java.
 
 ## Exception Handling
